@@ -7,7 +7,6 @@ function App() {
 
   return (
      <div style={{ padding: '20px' }}>
-      <h1>Videogiochi</h1>
       <div style={{
         display: 'flex',
         flexWrap: 'wrap',
