@@ -1,0 +1,134 @@
+[
+    {
+    "title": "God of War Ragnarök",
+    "category": "Azione/Avventura",
+    "description": "Seguito epico dell'avventura di Kratos e Atreus, ambientato nella mitologia norrena.",
+    "image": "https://www.mobygames.com/game/195074/god-of-war-ragnarok/cover/group-407262/cover-972437/",
+    "releaseDate": "2022-11-09",
+    "platforms": ["PlayStation 4", "PlayStation 5", "Windows"],
+    "multiplayer_online": false,
+    "multiplayer_local": false,
+    "coop": false
+  },
+  {
+    "title": "Far Cry 6",
+    "category": "FPS/Open World",
+    "description": "Sparatutto in prima persona ambientato in un'isola tropicale sotto dittatura, con un vasto mondo aperto da esplorare.",
+    "image": "https://www.mobygames.com/game/173341/far-cry-6/cover/group-372056/cover-894288/",
+    "releaseDate": "2021-10-07",
+    "platforms": ["PlayStation 4", "PlayStation 5", "Xbox One", "Xbox Series X/S", "PC"],
+    "multiplayer_online": true,
+    "multiplayer_local": false,
+    "coop": true
+  },
+  {
+    "title": "Red Dead Redemption 2",
+    "category": "Azione/Avventura/Open World",
+    "description": "Avventura western open world con una trama profonda e un mondo ricco di dettagli.",
+    "image": "https://www.gtabase.com/red-dead-redemption-2/covers/",
+    "releaseDate": "2018-10-26",
+    "platforms": ["PlayStation 4", "Xbox One", "PC"],
+    "multiplayer_online": true,
+    "multiplayer_local": false,
+    "coop": true
+  },
+  {
+    "title": "EA SPORTS FC 25",
+    "category": "Sport",
+    "description": "Nuova edizione del simulatore calcistico, con modalità innovative e miglioramenti nel gameplay.",
+    "image": "https://as.com/meristation/noticias/guia-ea-sports-fc-25-mejores-jugadores-equipos-tutoriales-ultimate-team-modo-carrera-y-mas-n/",
+    "releaseDate": "2024-09-27",
+    "platforms": ["PlayStation 4", "PlayStation 5", "Xbox One", "Xbox Series X/S", "PC", "Nintendo Switch"],
+    "multiplayer_online": true,
+    "multiplayer_local": true,
+    "coop": true
+  },
+  {
+    "title": "Fortnite",
+    "category": "Battle Royale",
+    "description": "Gioco di sopravvivenza multiplayer online con modalità Battle Royale e costruzione.",
+    "image": "https://www.epicgames.com/fortnite/",
+    "releaseDate": "2017-09-26",
+    "platforms": ["PlayStation 4", "PlayStation 5", "Xbox One", "Xbox Series X/S", "PC", "Nintendo Switch", "iOS", "Android"],
+    "multiplayer_online": true,
+    "multiplayer_local": false,
+    "coop": true
+  },
+  {
+    "title": "Star Wars Outlaws",
+    "category": "Azione/Avventura",
+    "description": "Gioco d'azione ambientato nell'universo di Star Wars, con una storia originale e un mondo aperto da esplorare.",
+    "image": "https://www.mobygames.com/game/229776/star-wars-outlaws/cover/group-400724/cover-958425/",
+    "releaseDate": "2024-08-30",
+    "platforms": ["PlayStation 5", "Xbox Series X/S", "PC", "Nintendo Switch 2"],
+    "multiplayer_online": false,
+    "multiplayer_local": false,
+    "coop": false
+  },
+  {
+    "title": "The Legend of Zelda: Tears of the Kingdom",
+    "category": "Azione/Avventura",
+    "description": "Seguito di Breath of the Wild, con nuove meccaniche di gioco e un mondo ancora più vasto da esplorare.",
+    "image": "https://www.zelda.com/tears-of-the-kingdom/",
+    "releaseDate": "2023-05-12",
+    "platforms": ["Nintendo Switch"],
+    "multiplayer_online": false,
+    "multiplayer_local": false,
+    "coop": false
+  },
+  {
+    "title": "Hogwarts Legacy",
+    "category": "Azione/RPG",
+    "description": "Gioco di ruolo ambientato nell'universo di Harry Potter, con una storia originale e un mondo aperto da esplorare.",
+    "image": "https://www.hogwartslegacy.com/",
+    "releaseDate": "2023-02-10",
+    "platforms": ["PlayStation 4", "PlayStation 5", "Xbox One", "Xbox Series X/S", "PC"],
+    "multiplayer_online": false,
+    "multiplayer_local": false,
+    "coop": false
+  },
+  {
+    "title": "Resident Evil 4 Remake",
+    "category": "Survival Horror",
+    "description": "Remake del classico survival horror, con grafica aggiornata e gameplay migliorato.",
+    "image": "https://www.residentevil.com/4/",
+    "releaseDate": "2023-03-24",
+    "platforms": ["PlayStation 4", "PlayStation 5", "Xbox Series X/S", "PC"],
+    "multiplayer_online": false,
+    "multiplayer_local": false,
+    "coop": false
+  },
+  {
+    "title": "Spider-Man 2",
+    "category": "Azione/Avventura",
+    "description": "Nuova avventura di Spider-Man, con due protagonisti giocabili e un mondo aperto ricco di azione.",
+    "image": "https://www.playstation.com/en-us/games/marvels-spider-man-2/",
+    "releaseDate": "2023-10-20",
+    "platforms": ["PlayStation 5"],
+    "multiplayer_online": false,
+    "multiplayer_local": false,
+    "coop": false
+  },
+  {
+    "title": "Cyberpunk 2077",
+    "category": "RPG/Open World",
+    "description": "Gioco di ruolo open world ambientato in un futuro distopico, con una trama profonda e un mondo ricco di dettagli.",
+    "image": "https://www.cyberpunk.net/",
+    "releaseDate": "2020-12-10",
+    "platforms": ["PlayStation 4", "PlayStation 5", "Xbox One", "Xbox Series X/S", "PC"],
+    "multiplayer_online": true,
+    "multiplayer_local": false,
+    "coop": true
+  }
+    {
+        "title": "Assassin's Creed Mirage",
+        "category": "Azione/Avventura",
+        "description": "Nuovo capitolo della saga di Assassin's Creed, con un'ambientazione storica e una trama avvincente.",
+        "image": "https://www.ubisoft.com/en-us/game/assassins-creed/mirage",
+        "releaseDate": "2023-10-05",
+        "platforms": ["PlayStation 4", "PlayStation 5", "Xbox One", "Xbox Series X/S", "PC"],
+        "multiplayer_online": false,
+        "multiplayer_local": false,
+        "coop": false
+    }
+]
