@@ -8,6 +8,7 @@ import './App.css'
 import HomePage from './pages/HomePage'
 import GamesPages from './pages/GamesPages'
 import GameCard from '../components/gameCard'
+import ComparatorPage from './pages/ComparatorPage';
 
 
 function App() {
@@ -33,7 +34,7 @@ function App() {
           />
 
           {/* Route per il comparatore*/}
-          <Route path="/comparator" element={<h1>Comparatore</h1>}></Route>
+          <Route path="/comparator" element={<ComparatorPage />}></Route>
 
           {/* Route per la pagina dettaglio del gioco */}
           <Route path="/gamelist/:id" element={<GameCard games={games} />} />
