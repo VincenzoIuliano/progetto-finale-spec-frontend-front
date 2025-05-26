@@ -27,10 +27,17 @@ export default function GamesPages() {
     }
   };
 
+  const [selectedCategory, setSelectedCategory] = useState("Tutte");
+
+  const handleCategoryChange = (e) => {
+    setSelectedCategory(e.target.value);
+  };
+
   // Filtra e ordina i giochi
   const filteredAndSortedGames = games
     .filter((game) =>
-      game.title.toLowerCase().includes(searchQuery.toLowerCase())
+      game.title.toLowerCase().includes(searchQuery.toLowerCase()) &&
+      (selectedCategory === "Tutte" || game.category === selectedCategory)
     )
     .sort((a, b) => {
       if (a[sortBy] < b[sortBy]) return -1 * sortOrder;
@@ -41,6 +48,11 @@ export default function GamesPages() {
   // Stringa per capire se l'ordine è crescente o decrescente
   const sortAz = sortOrder === 1 ? "- Ordine: A - z" : "- Ordine: Z - a";
 
+  const categories = ["Tutte", ...new Set(games.map(game => game.category))]; 
+// uso new Set per ottenere le categorie uniche dai giochi.
+  console.log("Categorie:", categories);
+  
+
   return (
     <div className="games-pages">
       <h1>Lista dei giochi</h1>
@@ -49,13 +61,25 @@ export default function GamesPages() {
         gioco per vedere i dettagli.
       </p>
 
-      <input
+      <div className="search-and-filter">
+        <input
         type="text"
         placeholder="Cerca un gioco..."
         className="search-name-input"
         // value={searchQuery}
         onChange={(e) => debouncedSetSearchQuery(e.target.value)}
       />
+
+      <select
+        value={selectedCategory}
+        onChange={handleCategoryChange}
+        className="search-category-select"
+      >
+        {categories.map(cat => (
+          <option key={cat} value={cat}>{cat}</option>
+        ))}
+      </select>
+      </div>
 
       <div>
         <table>

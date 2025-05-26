@@ -64,6 +64,8 @@ body, #root {
   text-align: center;
 }
 
+/* STILIZZAZIONE TABELLA  */
+
 table {
   width: 100%;
   border-collapse: collapse;
@@ -85,6 +87,8 @@ thead {
   color: greenyellow;
 }
 
+/* SEZIONE INPUT PER NOME E CATEGORIA */
+
 .search-name-input {
   width: 100%;
   max-width: 300px;
@@ -92,4 +96,19 @@ thead {
   border: 1px solid #ddd;
   border-radius: 4px;
   margin-bottom: 1rem;
+}
+.search-and-filter {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 1rem;
+  justify-content: space-between
+}
+
+.search-category-select {
+  width: 100%;
+  max-width: 200px;
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
 }

@@ -1,7 +1,7 @@
 [
     {
     "title": "God of War Ragnarök",
-    "category": "Azione/Avventura",
+    "category": "Azione,Avventura",
     "description": "Seguito epico dell'avventura di Kratos e Atreus, ambientato nella mitologia norrena.",
     "image": "https://i.ebayimg.com/00/s/MTYwMFgxMDY2/z/qdcAAOSwZ1VjQRd2/$_57.JPG?set_id=880000500F",
     "releaseDate": "2022-11-09",
@@ -13,7 +13,7 @@
   },
   {
     "title": "Far Cry 6",
-    "category": "FPS/Open World",
+    "category": "FPS,Open World",
     "description": "Sparatutto in prima persona ambientato in un'isola tropicale sotto dittatura, con un vasto mondo aperto da esplorare.",
     "image": "https://images.everyeye.it/img-cover/far-cry-6-v14-42292-320x450.webpt",
     "releaseDate": "2021-10-07",
@@ -25,7 +25,7 @@
   },
   {
     "title": "Red Dead Redemption 2",
-    "category": "Azione/Avventura/Open World",
+    "category": "Azione,Avventura,Open World",
     "description": "Avventura western open world con una trama profonda e un mondo ricco di dettagli.",
     "image": "https://m.media-amazon.com/images/I/71PrNDWXLIL.jpg",
     "releaseDate": "2018-10-26",
@@ -61,7 +61,7 @@
   },
   {
     "title": "Star Wars Outlaws",
-    "category": "Azione/Avventura",
+    "category": "Azione,Avventura",
     "description": "Gioco d'azione ambientato nell'universo di Star Wars, con una storia originale e un mondo aperto da esplorare.",
     "image": "https://www.mondoxbox.com/images/copertine/big/5196.jpg",
     "releaseDate": "2024-08-30",
@@ -73,7 +73,7 @@
   },
   {
     "title": "The Legend of Zelda: Tears of the Kingdom",
-    "category": "Azione/Avventura",
+    "category": "Azione,Avventura",
     "description": "Seguito di Breath of the Wild, con nuove meccaniche di gioco e un mondo ancora più vasto da esplorare.",
     "image": "https://assets.nintendo.eu/image/upload/f_auto,c_limit,w_992,q_auto:low/MNS/NOE/70010000063715/1.1_ProductTile_Switch_TheLegendOfZeldaTearsOfTheKingdom_KeyArt_EN_NOE",
     "releaseDate": "2023-05-12",
@@ -85,7 +85,7 @@
   },
   {
     "title": "Hogwarts Legacy",
-    "category": "Azione/RPG",
+    "category": "Azione,RPG",
     "description": "Gioco di ruolo ambientato nell'universo di Harry Potter, con una storia originale e un mondo aperto da esplorare.",
     "image": "https://preview.redd.it/did-anyone-have-hogwarts-legacy-cover-art-without-the-title-v0-w87c6sq870ke1.jpeg?width=1080&crop=smart&auto=webp&s=9c5c2e597e82603d4f09b461751e9c15293fb5b0",
     "releaseDate": "2023-02-10",
@@ -109,7 +109,7 @@
   },
   {
     "title": "Spider-Man 2",
-    "category": "Azione/Avventura",
+    "category": "Azione,Avventura",
     "description": "Nuova avventura di Spider-Man, con due protagonisti giocabili e un mondo aperto ricco di azione.",
     "image": "https://sm.ign.com/ign_it/game/s/spider-man/spider-man-2_q32s.jpg",
     "releaseDate": "2023-10-20",
@@ -121,7 +121,7 @@
   },
   {
     "title": "Cyberpunk 2077",
-    "category": "RPG/Open World",
+    "category": "RPG, Open World",
     "description": "Gioco di ruolo open world ambientato in un futuro distopico, con una trama profonda e un mondo ricco di dettagli.",
     "image": "https://www.codiciprodotto.it/wp-content/uploads/2021/01/Cyberpunk-2077-PC-COVER.jpg",
     "releaseDate": "2020-12-10",
@@ -133,7 +133,7 @@
   },
   {
         "title": "Assassin's Creed Mirage",
-        "category": "Azione/Avventura",
+        "category": "Azione, Avventura",
         "description": "Nuovo capitolo della saga di Assassin's Creed, con un'ambientazione storica e una trama avvincente.",
         "image": "https://preview.redd.it/assassins-creed-mirage-cover-art-assassins-creed-2007-style-v0-h5plbuhszwqa1.png?width=1587&format=png&auto=webp&s=4dcee7a226b30c97671928f35518dfd7c3ce5ae9",
         "releaseDate": "2023-10-05",
