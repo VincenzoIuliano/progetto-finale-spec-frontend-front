@@ -3,9 +3,11 @@ import { useState } from "react";
 import debounce from "lodash.debounce";
 // import GameCard from "../../components/GameCard";
 import games from "../../database/game.json"; // Importa i dati dei giochi
+import { Link } from "react-router-dom";
 
 export default function GamesPages() {
-  const [searchQuery, setSearchQuery] = useState("");
+  
+    const [searchQuery, setSearchQuery] = useState("");
   const debouncedSetSearchQuery = useCallback(
     debounce((value) => {
       setSearchQuery(value);
@@ -70,7 +72,9 @@ export default function GamesPages() {
           <tbody>
             {filteredAndSortedGames.map((game) => (
               <tr key={game.id}>
-                <td>{game.title}</td>
+                <td>
+                  <Link to={`/gamelist/${game.id}`}>{game.title}</Link>
+                </td>
                 <td>{game.category}</td>
               </tr>
             ))}

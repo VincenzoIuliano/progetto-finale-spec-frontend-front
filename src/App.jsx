@@ -1,11 +1,13 @@
 import React from 'react'
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 import { NavLink } from 'react-router-dom'
+import games from "../database/game.json"; // importa i giochi
 // import GameCard from '../components/gameCard'
 // import games from '../database/game.json'
 import './App.css'
 import HomePage from './pages/HomePage'
 import GamesPages from './pages/GamesPages'
+import GameCard from '../components/gameCard'
 
 
 function App() {
@@ -32,6 +34,9 @@ function App() {
 
           {/* Route per il comparatore*/}
           <Route path="/comparator" element={<h1>Comparatore</h1>}></Route>
+
+          {/* Route per la pagina dettaglio del gioco */}
+          <Route path="/gamelist/:id" element={<GameCard games={games} />} />
         </Routes>
       </div>
 
