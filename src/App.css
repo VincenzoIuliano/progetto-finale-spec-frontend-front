@@ -28,6 +28,8 @@ body, #root {
   gap: 1rem;
 }
 
+/* NAVBAR  */
+
 .navbar {
   width: 100vw;
   background-color: #26282e;
@@ -43,12 +45,7 @@ body, #root {
   width: 100%;
 }
 
-.footer {
-  width: 100%;
-  background-color: #26282e;
-  color: #fff;
-  text-align: center;
-}
+/* HOME  */
 
 .home {
   display: flex;
@@ -56,4 +53,43 @@ body, #root {
   align-items: center;
   justify-content: center;
   flex: 1;
+}
+
+/* FOOTER  */
+
+.footer {
+  width: 100%;
+  background-color: #26282e;
+  color: #fff;
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  table-layout: fixed;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+tr , th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+thead {
+  background-color: #26282e;
+  color: greenyellow;
+}
+
+.search-name-input {
+  width: 100%;
+  max-width: 300px;
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 1rem;
 }
