@@ -24,7 +24,7 @@ export default function ComparatorPage() {
           <thead>
             <tr>
               <th>Giochi</th>
-              <th>Puoi selezionare solo due giochi da confrontare!</th>
+              <th>Puoi selezionare solo due giochi da confrontare contemporaneamente!</th>
             </tr>
           </thead>
           <tbody>
