@@ -181,3 +181,31 @@ thead {
   box-shadow: 0 2px 8px rgba(0,0,0,0.04);
   gap: 1rem;
 }
+
+/* LISTA DEI PREFERITI  */
+.favourites-list {
+  /* display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); */
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 2rem;
+  justify-items: center;
+  align-items: stretch;
+  width: 100%;
+}
+
+.favourite-card {
+  border: 2px solid greenyellow;
+  padding: 2rem;
+  width: 220px;
+  min-height: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  background: #222;
+  color: #fff;
+  border-radius: 8px;
+}

@@ -1,5 +1,6 @@
 import React from "react";
 import { useParams } from "react-router-dom";
+import { useState , useEffect } from "react";
 
 const GameCard = ({ games }) => {
 
@@ -8,20 +9,50 @@ const GameCard = ({ games }) => {
 
   const game = games.find((g) => g.id === parseInt(id));
 
+  // Stato per i preferiti
+  const [favourites, setFavourites] = useState(() => {
+    const saved = localStorage.getItem("favourites");
+    return saved ? JSON.parse(saved) : [];
+  });
+
+  // Funzione toggle per i preferiti
+  const toggleFavourite = () => {
+    setFavourites((prev) =>
+      prev.includes(game.id)
+        ? prev.filter((gid) => gid !== game.id)
+        : [...prev, game.id]
+    );
+  };
+
+  const isFavourite = favourites.includes(game.id);
+  console.log(favourites);
+  
+
+  // Aggiorna localStorage quando cambia favourites
+  useEffect(() => {
+    localStorage.setItem("favourites", JSON.stringify(favourites));
+  }, [favourites]);
+
+
+  // Se il gioco non esiste, mostra un messaggio
   if (!game) {
     return <div>Gioco non trovato.</div>;
   }
 
   return (
     <div className="game-card">
-      <figure>
+      <div>
+        <figure>
         <img
           className="game-image"
           src={game.image}
           alt={game.title}
-          // style={{ width: "100%", borderRadius: "8px" }}
         />
       </figure>
+      <button onClick={toggleFavourite} className="favourite-btn">
+          {isFavourite ? "★ Rimuovi dai preferiti" : "☆ Aggiungi ai preferiti"}
+        </button>
+      </div>
       <div className="game-details">
         <h2>{game.title}</h2>
         <p>

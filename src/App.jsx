@@ -9,6 +9,7 @@ import HomePage from './pages/HomePage'
 import GamesPages from './pages/GamesPages'
 import GameCard from '../components/gameCard'
 import ComparatorPage from './pages/ComparatorPage';
+import FavouritesPage from './pages/FavouritesPage';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
         <NavLink to="/">Home</NavLink>
         <NavLink to="/gamelist">Lista dei giochi</NavLink>
         <NavLink to="/comparator">Comparatore</NavLink>
+        <NavLink to="/favourites">Preferiti</NavLink>
       </nav>
 
       <div className="App">
@@ -38,6 +40,19 @@ function App() {
 
           {/* Route per la pagina dettaglio del gioco */}
           <Route path="/gamelist/:id" element={<GameCard games={games} />} />
+
+          {/* Route per la pagina dei preferiti */}
+          {<Route path="/favourites" element={<FavouritesPage />} /> }
+
+          {/* Route per gestire pagine non trovate */}
+          <Route
+            path="*"
+            element={
+              <div>
+                <h1>Pagina non trovata</h1>
+                <p>La pagina che stai cercando non esiste.</p>
+              </div>
+            } />
         </Routes>
       </div>
 
