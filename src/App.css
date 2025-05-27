@@ -132,9 +132,10 @@ thead {
   flex: 1;
   text-align: left;
 }
-.game-details img {
+.game-image {
   max-width: 100%;
-  height: auto;
-  border-radius: 8px;
+  height: 30rem;
+  width: 25rem;
+  border-radius: 2px;
   aspect-ratio: 1 / 1;
 }

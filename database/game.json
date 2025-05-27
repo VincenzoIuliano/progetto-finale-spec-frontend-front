@@ -142,5 +142,41 @@
         "multiplayer_local": false,
         "coop": false,
         "id": 12
+    },
+    {
+        "title": "Alan Wake 2",
+        "category": "Survival Horror, Azione",
+        "description": "Sequel del celebre gioco di survival horror, con una trama avvincente e atmosfere inquietanti.",
+        "image": "https://cdn1.epicgames.com/offer/c4763f236d08423eb47b4c3008779c84/EGS_AlanWake2_RemedyEntertainment_S2_1200x1600-c7c8091ddac0f9669c8e5905bca88aaa",
+        "releaseDate": "2023-10-27",
+        "platforms": ["PlayStation 5", "Xbox Series X/S", "PC"],
+        "multiplayer_online": false,
+        "multiplayer_local": false,
+        "coop": false,
+        "id": 13
+    },
+    {
+        "title": "Starfield",
+        "category": "RPG, Open World",
+        "description": "Gioco di ruolo open world spaziale, con un vasto universo da esplorare e una trama profonda.",
+        "image": "https://images.ctfassets.net/rporu91m20dc/618MZixlG1z0XLxSwUv029/e4129379469473bcfb8b50b4314a308e/Starfield_box_front.jpg",
+        "releaseDate": "2023-09-06",
+        "platforms": ["Xbox Series X/S", "PC"],
+        "multiplayer_online": false,
+        "multiplayer_local": false,
+        "coop": false,
+        "id": 14
+    },
+    {
+        "title": "Baldur's Gate 3",
+        "category": "RPG, GDR",
+        "description": "GDR basato sull'universo di Dungeons & Dragons, con una trama profonda e un sistema di combattimento strategico.",
+        "image": "https://preview.redd.it/new-game-cover-from-larians-website-v0-m2lmw222h0ka1.png?auto=webp&s=ba904ad42906960a96a70ce1c27ee6d3ff5edead",
+        "releaseDate": "2023-08-03",
+        "platforms": ["PlayStation 5", "PC"],
+        "multiplayer_online": true,
+        "multiplayer_local": false,
+        "coop": true,
+        "id": 15
     }
 ]

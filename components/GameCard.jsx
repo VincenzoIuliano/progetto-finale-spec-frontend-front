@@ -14,11 +14,12 @@ const GameCard = ({ games }) => {
 
   return (
     <div className="game-card">
-      <figure className="game-image">
+      <figure>
         <img
+          className="game-image"
           src={game.image}
           alt={game.title}
-          style={{ width: "100%", borderRadius: "8px" }}
+          // style={{ width: "100%", borderRadius: "8px" }}
         />
       </figure>
       <div className="game-details">

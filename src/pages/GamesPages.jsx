@@ -35,9 +35,14 @@ export default function GamesPages() {
 
   // Filtra e ordina i giochi
   const filteredAndSortedGames = games
-    .filter((game) =>
-      game.title.toLowerCase().includes(searchQuery.toLowerCase()) &&
-      (selectedCategory === "Tutte" || game.category === selectedCategory)
+    .filter(
+      (game) =>
+        game.title.toLowerCase().includes(searchQuery.toLowerCase()) &&
+        (selectedCategory === "Tutte" ||
+          game.category
+            .split(",")
+            .map((cat) => cat.trim())
+            .includes(selectedCategory))
     )
     .sort((a, b) => {
       if (a[sortBy] < b[sortBy]) return -1 * sortOrder;
@@ -48,7 +53,15 @@ export default function GamesPages() {
   // Stringa per capire se l'ordine è crescente o decrescente
   const sortAz = sortOrder === 1 ? "- Ordine: A - z" : "- Ordine: Z - a";
 
-  const categories = ["Tutte", ...new Set(games.map(game => game.category))]; 
+  const categories = [
+    "Tutte",
+    ...new Set(
+      games
+        .flatMap(game => game.category.split(",").map(cat => cat.trim()))
+    ),
+  ]; 
+
+  // Flatmap mi serve per avere un array piatto di categorie, cosi splitto e poi faccio il map 
 // uso new Set per ottenere le categorie uniche dai giochi.
   console.log("Categorie:", categories);
   
