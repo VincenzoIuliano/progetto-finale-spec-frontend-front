@@ -100,7 +100,7 @@ export default function ComparatorPage() {
             ) : (
               <p style={{color: "greenyellow"}}>Seleziona due giochi per confrontarli.</p>
             )}
-            <button onClick={() => setShowModal(false)}>Chiudi</button>
+            <button style={{border: "2px solid white"}} onClick={() => setShowModal(false)}>Chiudi</button>
           </div>
         </div>
       )}

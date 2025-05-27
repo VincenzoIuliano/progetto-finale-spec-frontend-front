@@ -166,7 +166,8 @@ thead {
   align-items: center;
   justify-content: center;
   text-align: justify;
-  text-justify: justify;        
+  text-justify: justify;   
+  padding: 2rem;     
 }
 
 .game-comparison {
