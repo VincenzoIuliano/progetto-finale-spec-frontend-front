@@ -139,3 +139,43 @@ thead {
   border-radius: 2px;
   aspect-ratio: 1 / 1;
 }
+
+/* MODALE PER LA PAGINA COMPARATORE */
+
+.modal-overlay {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+.modal {
+  background: black;
+  padding: 2rem;
+  border-radius: 8px;
+  min-width: 300px;
+  text-align: center;
+  color: black;
+}
+
+.comparison-details {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: justify;
+  text-justify: justify;        
+}
+
+.game-comparison {
+  flex: 1 1 0;
+  border: 2px solid #26282e;
+  border-radius: 8px;
+  padding: 1.5rem;
+  background: #f9f9f9;
+  min-width: 200px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  gap: 1rem;
+}
