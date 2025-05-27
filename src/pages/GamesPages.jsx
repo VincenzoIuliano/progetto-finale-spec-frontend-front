@@ -68,7 +68,6 @@ export default function GamesPages() {
 
   return (
     <div className="games-pages">
-      <h1>Lista dei giochi</h1>
       <p>
         Qui puoi trovare una lista completa dei giochi disponibili. Clicca su un
         gioco per vedere i dettagli.
