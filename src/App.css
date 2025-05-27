@@ -152,12 +152,13 @@ thead {
   z-index: 1000;
 }
 .modal {
-  background: black;
+  background: rgb(43, 40, 40);
   padding: 2rem;
   border-radius: 8px;
   min-width: 300px;
   text-align: center;
   color: black;
+  border: 2px solid greenyellow;
 }
 
 .comparison-details {
