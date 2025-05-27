@@ -23,8 +23,8 @@ export default function ComparatorPage() {
         <table>
           <thead>
             <tr>
+              <th>Giochi</th>
               <th>Puoi selezionare solo due giochi da confrontare!</th>
-              <th>Nome gioco</th>
             </tr>
           </thead>
           <tbody>
@@ -34,6 +34,10 @@ export default function ComparatorPage() {
               .map((game) => (
                 <tr key={game.id}>
                   <td>
+                    <Link to={`/gamelist/${game.id}`}>{game.title}</Link>
+                  </td>
+                  <td>
+                    
                     <input
                       type="checkbox"
                       checked={selectedGames.includes(game.id)}
@@ -43,9 +47,6 @@ export default function ComparatorPage() {
                         selectedGames.length >= 2
                       }
                     />
-                  </td>
-                  <td>
-                    <Link to={`/gamelist/${game.id}`}>{game.title}</Link>
                   </td>
                 </tr>
               ))}
